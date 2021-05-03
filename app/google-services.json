@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "267825734936",
+    "project_id": "fizyo-terapim",
+    "storage_bucket": "fizyo-terapim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267825734936:android:d099a2c7a62d269178aa6d",
+        "android_client_info": {
+          "package_name": "com.safehouse.fizyoterapim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267825734936-kcjun571ea72rdgb60v5fnoebb14om74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCPMDGra-kB4TUoB29zplGpdoHO6fidTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267825734936-kcjun571ea72rdgb60v5fnoebb14om74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

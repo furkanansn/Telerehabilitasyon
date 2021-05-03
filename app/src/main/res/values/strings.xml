@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Telerehabilitasyon</string>
+    <string name="title_home">Egzersizlerim</string>
+    <string name="title_dashboard">Randevularım</string>
+    <string name="title_notifications">Kontrollerim</string>
+    <string name="title_video">İletişim</string>
+    <string name="title_profile">Profil</string>
+</resources>

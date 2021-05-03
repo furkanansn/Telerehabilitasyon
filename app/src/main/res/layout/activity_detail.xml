@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/exerciseDetail"
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    tools:context=".ui.Activity.DetailActivity"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title=""
+        app:titleTextColor="@color/textColorPrimary"
+        />
+    <com.potyvideo.library.AndExoPlayerView
+        android:id="@+id/exercise_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:andexo_aspect_ratio="aspect_16_9"
+        app:andexo_full_screen="true"
+        app:andexo_play_when_ready="true"
+        app:andexo_show_controller="true"
+        app:andexo_resize_mode="Fill"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/exercise_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:text="Süper hareketli egzersiz" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/exercise_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:text="Süper hareketli egzersiz" />
+
+            <ImageView
+                android:id="@+id/exercise_image1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="12dp"
+                android:src="@color/buttonTextColor" />
+            <ImageView
+                android:id="@+id/exercise_image2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="12dp"
+                android:src="@color/buttonTextColor" />
+            <ImageView
+                android:id="@+id/exercise_image3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="12dp"
+                android:src="@color/buttonTextColor" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
